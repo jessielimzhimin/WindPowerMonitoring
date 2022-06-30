@@ -1,6 +1,6 @@
 readChId = 12397;
-writeChId = 1785810;  % replace with your channel number
-writeKey = 'C9XK8P4U3D2KTYKH'; % Replace with your channel write key
+writeChId = *****;  % replace with your channel number
+writeKey = '******'; % Replace with your channel write key
 [wind_speed,time] = thingSpeakRead(readChId,'Fields',2,'NumPoints',65);
 pressureHg = thingSpeakRead(readChId, 'Fields',6,'NumPoints',65);
 tempF = thingSpeakRead(readChId, 'Fields',4,'NumPoints',65);
