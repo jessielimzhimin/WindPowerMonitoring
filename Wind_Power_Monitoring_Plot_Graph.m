@@ -1,5 +1,5 @@
-readChId = 1785844 %Write your own channel ID
-readKey = 'Z4G68PPLV1JD0IKA'; %Write your own read key (not write key!)
+readChId = XXXX %Write your own channel ID
+readKey = 'XXXXXXXXXX'; %Write your own read key (not write key!)
 
 %collect the number of points from the channel
 [windPower,timeStamps] = thingSpeakRead(readChId,'fields',[1,2,3,4,5,6],...
