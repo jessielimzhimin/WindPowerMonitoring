@@ -1,9 +1,9 @@
 readChId = 12397;
-writeChId = *****;  % replace with your channel number
-writeKey = '******'; % Replace with your channel write key
-[wind_speed,time] = thingSpeakRead(readChId,'Fields',2,'NumPoints',65);
-pressureHg = thingSpeakRead(readChId, 'Fields',6,'NumPoints',65);
-tempF = thingSpeakRead(readChId, 'Fields',4,'NumPoints',65);
+writeChId = xxxx;  % replace with your channel number
+writeKey = 'xxxxxx'; % Replace with your channel write key
+[wind_speed,time] = thingSpeakRead(readChId,'Fields',2,'NumPoints',9);
+pressureHg = thingSpeakRead(readChId, 'Fields',6,'NumPoints',9);
+tempF = thingSpeakRead(readChId, 'Fields',4,'NumPoints',9);
 
 %Calculate the Air Density
 gas_const = 287.050;
